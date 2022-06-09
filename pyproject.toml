@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "celery_no_need_restart_workers_trick"
+version = "0.1.0"
+description = ""
+authors = ["kornov-rooman <kornov.rooman@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+celery = "^5.2.7"
+redis = "^4.3.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
